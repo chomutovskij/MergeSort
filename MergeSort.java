@@ -9,6 +9,7 @@ public class MergeSort
      * Sorts an array of integers in ascending order.
      *
      * @param array An array of integers.
+     * @return A sorted in ascending order array of integers.
      */
     public static int[] sort(int[] array)
     {
