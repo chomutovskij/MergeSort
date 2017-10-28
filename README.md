@@ -1,2 +1,2 @@
-# merge-sort-java
+# MergeSort
 Merge Sort implementation in Java
