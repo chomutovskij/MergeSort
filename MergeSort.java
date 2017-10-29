@@ -9,10 +9,9 @@ public class MergeSort
      * Sorts an array of integers in ascending order.
      *
      * @param array An array of integers.
-     * @return A sorted in ascending order array of integers.
+     * @return A sorted in ascending order array of integers
      */
-    public static int[] sort(int[] array)
-    {
+    public static int[] sort(int[] array) {
         if (array.length <= 1) {
             return array;
         }
@@ -62,8 +61,7 @@ public class MergeSort
         return result;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int[] array = new int[] {5, 10, 4, 2, 47, 60, 40, 1447, 3};
         int[] sortedArray = sort(array);
 
